@@ -147,7 +147,6 @@ export default function Dashbaord() {
               onClick={() => router.back()}
               type="secondary"
               title="Back"
-              loading={loading}
             />
             <Button
               onClick={handleSubmit}
